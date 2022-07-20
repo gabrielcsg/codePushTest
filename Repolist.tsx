@@ -20,8 +20,8 @@ const Repolist: React.FC = () => {
 
   return (
     <ScrollView style={{paddingHorizontal: 20}}>
-      <Text style={{marginVertical: 20, fontSize: 24, color: 'red'}}>
-        Repositorios TESTEEEE
+      <Text style={{marginVertical: 20, fontSize: 24, color: 'blue'}}>
+        Repositorios:
       </Text>
       {repos.map(repo => (
         <Text key={repo.id}>{repo.name}</Text>
